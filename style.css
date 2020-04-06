@@ -1,0 +1,116 @@
+body {
+  background-color: dodgerblue;
+}
+
+h1, p, #meme-form {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#meme-form {
+  margin-top: 40px;
+}
+
+#img-link, #top-text, #bottom-text {
+  margin-bottom: 40px;
+  margin-left: 90px;
+  width: 75%;
+  height: 30px;
+  border-radius: 5px;
+  position: relative;
+}
+
+#img-link {
+  left: 10px;
+}
+
+#top-text {
+  left: 14px;
+}
+
+#bottom-text {
+  right: 2px;
+}
+
+#txt-link, #txt-top, #txt-bottom, #submit-btn {
+  position: relative;
+}
+
+#txt-link {
+  right: 11px;
+}
+
+#txt-top {
+  right: 18px;
+}
+
+#submit-btn {
+  left: 572px;
+}
+
+h1, p {
+  color: brown;
+}
+
+p {
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#parent-div {
+  text-align: center;
+}
+
+.container-div {
+  position: relative;
+  width: 35%;
+  height: 300px;
+  margin: 50px;
+  display: inline-block;
+}
+
+.resize-img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-text-div {
+  position: absolute;
+  bottom: 90%;
+  width: 100%;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.btm-text-div {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.remove-btn {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: purple;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
